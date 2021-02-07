@@ -1,7 +1,6 @@
 #full-ui{
     background-color: #ffffe9;
 }
-
 .web-head img{
     width: 7%;
     height: 7%;
@@ -28,8 +27,7 @@
 #search-btn{
     background-color: brown;
     padding: 15px;
-    
-}
+    }
 #result{
     color: brown;
     margin-top: 10px;
@@ -40,8 +38,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 20px;
-    
-}
+    }
 .meal-image{
     width: 200px;
     height: 200px;
