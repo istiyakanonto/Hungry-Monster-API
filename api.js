@@ -11,18 +11,15 @@ function searchResult() {
         fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${searchFood}`)
             .then(res => res.json())
             .then(data => {
-                if(data.meals===null)
-                {
-                    alert('Not found') 
+                if (data.meals === null) {
+                    alert('Not found')
                 }
-                else{
-                    findMeal(data.meals);   
+                else {
+                    findMeal(data.meals);
                 }
-               
             })
     }
 }
-
 function findMeal(meals) {
     document.getElementById("meal-items").innerHTML = "";
     meals.forEach(meal => {
@@ -59,7 +56,7 @@ function showDetailsMealsInfo(meal) {
     <h6 class="ingredient">${meal.strInstructions}</h6>
     `;
     let i = 1;
-    while (i <= 20) {
+    while (i <= 18) {
         let quantityOfMeals = 'strMeasure' + i;
         let totalElementItems = 'strIngredient' + i;
         i++;
