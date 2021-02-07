@@ -1,0 +1,51 @@
+#full-ui{
+    background-color: #ffffe9;
+}
+
+.web-head img{
+    width: 7%;
+    height: 7%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.web-head{
+    color: brown;
+    font-size: bold;
+}
+#meal-search-box{
+    text-align: center;
+}
+#search-food{
+    width: 40%;
+   margin-top: 20px;
+     border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#search-btn{
+    background-color: brown;
+    padding: 15px;
+    
+}
+#result{
+    color: brown;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: bold;
+}
+#meal-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    
+}
+.meal-image{
+    width: 200px;
+    height: 200px;
+}
+.ingredient{
+    color: brown;
+}
