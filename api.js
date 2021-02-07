@@ -56,7 +56,7 @@ function showDetailsMealsInfo(meal) {
     <h6 class="ingredient">${meal.strInstructions}</h6>
     `;
     let i = 1;
-    while (i <= 18) {
+    while (i <= 19) {
         let quantityOfMeals = 'strMeasure' + i;
         let totalElementItems = 'strIngredient' + i;
         i++;
